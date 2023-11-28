@@ -4,12 +4,14 @@
       "id": 1,
       "firstName": "Dave",
       "lastName": "Lopper",
+      "email": "dave.lopper@mail.fr",
       "password": "ilovereact"
     },
     {
       "id": 2,
       "firstName": "Anne",
       "lastName": "Onyme",
+      "email": "anne.onyme@mail.fr",
       "password": "chut"
     }
   ],
