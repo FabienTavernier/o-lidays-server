@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Dave",
+      "lastName": "Lopper",
+      "password": "ilovereact"
+    },
+    {
+      "id": 2,
+      "firstName": "Anne",
+      "lastName": "Onyme",
+      "password": "chut"
+    }
+  ],
+  "rentals": [
+    {
+      "id": 42850678,
+      "title": "Suite de luxe avec vue sur la mer des Wadden, Harlingen",
+      "photo": "https://a0.muscache.com/im/pictures/be42241a-5346-4745-a2ef-8cf7576f88b8.jpg?im_w=1200",
+      "location": {
+        "locality": "Harlingen",
+        "country": "Pays-Bas",
+        "latitude": 53.1748,
+        "longitude": 5.4272
+      },
+      "status": "Professionnel",
+      "price": 382,
+      "description": "La luxueuse suite spacieuse est meublée d'un coin salon confortable, d'une télévision à écran plat, d'un minibar, d'un double sommier, d'un double lavabo, d'un jacuzzi, d'un sèche-cheveux, d'une salle de bain avec douche à effet pluie spacieuse et de toilettes. Un petit-déjeuner de luxe est servi chaque matin.\n\nDe la suite, vous avez une vue unique sur la plus grande zone de marée au monde: le site du patrimoine mondial de l'Unesco « La mer des Wadden ».\n\nNous ferons tout notre possible pour que vous passiez un séjour inoubliable dans l'entonnoir !",
+      "guests": 2,
+      "bedroom": 1,
+      "bed": 1,
+      "bathroom": 1,
+      "category": "Dépaysement garanti"
+    },
+    {
+      "id": 20952140,
+      "title": "La Suite secrète",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-20952140/original/d6380b74-9bb6-4821-88a7-422d1b494791.jpeg?im_w=1200",
+      "location": {
+        "locality": "Amsterdam",
+        "country": "Pays-Bas",
+        "latitude": 52.3546,
+        "longitude": 4.904
+      },
+      "status": "Professionnel",
+      "price": 1080,
+      "description": "Nous vous accueillons chaleureusement à l'hôtel Faralda Crane. Ne vous attendez pas à un hôtel grand public. C'est une grue ! Une grue portuaire monumentale et un monument. Soit vous aimez ça, soit vous le détestez. Dans la grue, les limites de la scène souterraine, la créativité et l'extravagance avec les entrepreneurs, les DJ, les artistes, les mannequins sont poussés à de nouveaux sommets. La grue offre une expérience inoubliable qui transforment l'ordinaire. Nous sommes fiers de dépasser les attentes de nos esprits libres exigeants et invités ouverts.",
+      "guests": 2,
+      "bedroom": 1,
+      "bed": 2,
+      "bathroom": 2,
+      "category": "Dépaysement garanti"
+    },
+    {
+      "id": 609161492165382300,
+      "title": "Maison de jardin séparée en pleine nature",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-609161492165382333/original/90d03745-e550-49c3-891e-ec5b6dc40a75.jpeg?im_w=1200",
+      "location": {
+        "locality": "Tervuren",
+        "country": "Belgique",
+        "latitude": 50.8244,
+        "longitude": 4.514
+      },
+      "status": "Particulier",
+      "price": 168,
+      "description": "Situé à Tervuren à côté de l'Arboretum (2 min à pied), La Vista est un paradis vert pour les amoureux de la nature, les cyclistes de la course et le VTT, et les voyageurs d'affaires. Il dispose d'un accès à la nature, allié au confort et à la campagne à proximité de la ville (Bruxelles, Louvain et Wavre sont à seulement 20 minutes). Le pavillon vert dispose d'une connexion Wi-Fi gratuite, d'un grand écran plat, d'une cuisine entièrement équipée avec machine Nexpresso, d'une salle d'eau. Vous pourrez vous détendre sur leur terrasse privée, profiter d'une vue unique et imprenable sur les prairies.",
+      "guests": 2,
+      "bedroom": "studio",
+      "bed": 1,
+      "bathroom": 1,
+      "category": "Dépaysement garanti"
+    },
+    {
+      "id": 35134577,
+      "title": "Expérience de glamping unique près d'Ely et de Cambridge",
+      "photo": "https://a0.muscache.com/im/pictures/2e5550b5-628f-46a6-ae3b-93495384c15e.jpg?im_w=1200",
+      "location": {
+        "locality": "Sutton",
+        "country": "Royaume-Uni",
+        "latitude": 52.3886,
+        "longitude": 0.1195
+      },
+      "status": "Particulier",
+      "price": 181,
+      "description": "Un bateau de 1945 magnifiquement converti niché dans une forêt privée surplombant la belle campagne de fenlands ouvertes. Retraite parfaite pour les couples qui cherchent à se détendre, explorer et visiter les villes locales. Situé à 15 minutes en voiture d'Ely et à 30 minutes de Cambridge.\n\nLe bateau fait partie de l'espace global incorporant la chambre avec un lit king size, accompagné d'une cabane de bateau adjacente avec une cuisine de style industriel éclectique et une salle de bain avec douche à l'italienne.",
+      "guests": 2,
+      "bedroom": 1,
+      "bed": 1,
+      "bathroom": 1,
+      "category": "Dépaysement garanti"
+    },
+    {
+      "id": 44352722,
+      "title": "Douce nuit sous les étoiles",
+      "photo": "https://a0.muscache.com/im/pictures/b7756897-ef31-4080-b881-c4c7b9ec0df7.jpg?im_w=1200",
+      "location": {
+        "locality": "Caylus",
+        "country": "France",
+        "latitude": 44.2421,
+        "longitude": 1.7695
+      },
+      "status": "Professionnel",
+      "price": 132,
+      "description": "La structure enveloppante tout en bois du dôme ouvert sur les étoiles grâce à sa rosace à 6 branches, vous accueille pour un séjour de pure détente et de déconnexion . Afin de préserver l'impact environnemental, le zôme a été conçu de manière à réduire au maximum son empreinte carbone. Il est donc géré d'une manière éco-responsable, l'apport d'eau par un système de pompe sur batterie, l'électricité par un panneau solaire et les toilettes sont sèches. Cet espace cocooning vous attend et vous offre de la détente avec ses lectures, ses jeux de mots ou de société.. Vous aurez également la possibilité de méditer (2 tabourets et tapis vous attendent) Un espace extérieur vous est réservé en toute tranquillité où vous pourrez vous détendre sur des chaises longues, hamac 2 personnes Ou vous occuper en jouant au Molki, jeu de fléchettes, raquettes, pétanque.. Et si vous souhaitez visiter la région aux multiples facettes, un cahier est à votre disposition avec un panel d'activités à pratiquer : la randonnée à partir du zôme, des visites touristiques au départ de Caylus (ville médiévale)… Si vous ne souhaitez pas ressortir pour aller dîner, vous disposez sur place et à tout moment d' un service de restauration « traiteur » par la mise à disposition de plat 100 % BIO et de saison (conserve individuelle en verre - cuisson à basse température) et réchauffable sur place que vous pouvez consommer dans le zôme ou à l'extérieur. Si le manque de lumière naturelle ne suffisait pas à recharger le panneau solaire afin de maintenir un éclairage constant lors de votre soirée, un éclairage d'appoint est mis à votre disposition.",
+      "guests": 2,
+      "bedroom": 1,
+      "bed": 1,
+      "bathroom": 1,
+      "category": "Dépaysement garanti"
+    },
+    {
+      "id": 24860188,
+      "title": "Appartement intra muros avec garage et patio",
+      "photo": "https://a0.muscache.com/im/pictures/8ea186ac-f90a-47bd-ae8e-7ae2f5bdca88.jpg?im_w=1200",
+      "location": {
+        "locality": "Aigues-Mortes",
+        "country": "France",
+        "latitude": 43.5662,
+        "longitude": 4.1917
+      },
+      "status": "Particulier",
+      "price": 70,
+      "description": "Nous louons un appartement de charme, rénové,climatisé,, de 60 m2 avec un petit patio de 12m2 très agréable au coeur de la cité.\n\nSitué dans une rue très calme d 'aigues-mortes , non commerçante mais à quelques pas de la place Saint Louis, vous pourrez garer votre voiture au rez de chaussée ( garage privé et fermé !).possibilité d’une carte de parking ( autour des remparts parking sécurisés)pour une 2eme voiture ou une grande voiture ( 20€ et 50€ de caution). Les chats ne sont pas admis merci.",
+      "guests": 4,
+      "bedroom": 2,
+      "bed": 3,
+      "bathroom": 1,
+      "category": "Locations de vacances"
+    },
+    {
+      "id": 14947526,
+      "title": "Studio d'architecte avec piscine et jardins",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-14947526/original/173ea468-7deb-4703-bda0-b048350505b9.jpeg?im_w=1200",
+      "location": {
+        "locality": "Aix-en-Provence",
+        "country": "France",
+        "latitude": 43.5309,
+        "longitude": 5.4475
+      },
+      "status": "Particulier",
+      "price": 100,
+      "description": "Le plaisir d'accueillir des hôtes dans un studio moderne de 20 m2 voisin d'une bastide du 19ème Siècle au milieu d'un jardin arboré et fleuri de 2 000 m2.\n\nParking + patio privatifs aménagés.\n\nLa piscine (12x4) et le terrain de pétanque sont des espaces partagés à votre disposition.\n\nCentre-ville est à 15/20’ à pieds et accessible en bus (L 6, arrêt petit Nice).\n\nCapacité : 2 adultes en lit double (190/140) + bébé de 12 mois maximum\n\nVigilance : chemin d'accès et parking étroits",
+      "guests": 2,
+      "bedroom": 1,
+      "bed": 1,
+      "bathroom": 1,
+      "category": "Locations d'appartements"
+    },
+    {
+      "id": 785432,
+      "title": "Péniche au Centre d’Amsterdam",
+      "photo": "https://a0.muscache.com/im/pictures/11408728/8881f26b_original.jpg?im_w=1200",
+      "location": {
+        "locality": "Amsterdam",
+        "country": "Pays-Bas",
+        "latitude": 52.3546,
+        "longitude": 4.904
+      },
+      "status": "Particulier",
+      "price": 250,
+      "description": "Vous pénétrez dans la péniche directement de la place en face du « Stopera ». En descendant environ cinq marches, vous aurez à votre gauche une petite chambre (peut loger deux personnes), et en face vous aurez la salle de bains plutôt grande, avec toilettes, et douche et bain séparés. Si vous allez vers la droite, vous entrerez dans la cuisine entièrement équipée et la salle de séjour. Vous pouvez vous asseoir à la table à manger et profiter de la vue de la partie la plus centrale du fleuve Amstel. Bien sûr, il y a aussi un sofa confortable et un canapé-lit pouvant accueillir deux personnes. À partir de la salle de séjour, vous entrez dans la chambre principale qui comprend un lit double confortable. S’il fait beau, vous pourrez aussi profiter de la terrasse où le soleil tape lorsqu'il brille ! De la terrasse, on peut voir le fleuve Amstel, le fameux Blawbrug (le pont bleu), et l’Opéra.",
+      "guests": 4,
+      "bedroom": 2,
+      "bed": 3,
+      "bathroom": 1,
+      "category": "Locations de péniches"
+    },
+    {
+      "id": 23852021,
+      "title": "T2 près du ciel avec terrasse de 22 m²",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-23852021/original/ffbe1ee4-256c-459d-9b78-5af9fac75d96.jpeg?im_w=1200",
+      "location": {
+        "locality": "Barcelonnette",
+        "country": "France",
+        "latitude": 44.3868,
+        "longitude": 6.6515
+      },
+      "status": "Particulier",
+      "price": 71,
+      "description": "Joli T2 d'environ 50 m2, en sous pente, au dernier étage d'un chalet individuel situé sur les hauteurs d'un hameau. Il dispose, de 2 lits en 160, d'une terrasse de 22m2, d'un parking et offre calme, liberté ainsi qu'une vue magnifique.\n\nSa proximité avec les stations (Sauze 10mn/Pra-Loup 20mn) et Barcelonnette (5mn) vous permettra également de profiter du ski , des randos ou des festivités en seulement quelques minutes de voiture.\n\nBalades possibles au départ du chalet.\n\nLINGE FOURNI",
+      "guests": 4,
+      "bedroom": 1,
+      "bed": 2,
+      "bathroom": 1,
+      "category": "Locations de chalets"
+    },
+    {
+      "id": 581689286115669900,
+      "title": "grande maison dans hameau en cœur de Parc national",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-581689286115669833/original/c937df15-ca94-45ca-b6f3-67728ca1feb1.jpeg?im_w=1200",
+      "location": {
+        "locality": "Barre-des-Cévennes",
+        "country": "France",
+        "latitude": 44.3868,
+        "longitude": 6.6515
+      },
+      "status": "Particulier",
+      "price": 80,
+      "description": "Cette ancienne grange rénovée avec goût offre de beaux volumes de vie et de nombreuses possibilités d'accueil et de promenades.\n\nSituée dans la zone cœur du Parc national des Cévennes, dans un hameau entouré de prairies, de forêts et d'animaux, elle permet un séjour détente, calme et déconnecté avec de nombreux amis ou avec une grande famille, tout en restant très accessible (commerces à 5 km, Florac à 20 minutes).\n\nVous pourrez aussi explorer sa vaste bibliothèque et profiter de nombreux DVD !",
+      "guests": 12,
+      "bedroom": 3,
+      "bed": 7,
+      "bathroom": 2,
+      "category": "Locations de cottages"
+    }
+  ]
+}

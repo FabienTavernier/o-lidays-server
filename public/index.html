@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>O'lidays API</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="container">
+        <h1>O'lidays API</h1>
+        <ul>
+          <li><a href="#get-resource">Lister</a></li>
+          <li><a href="#post-resource">Ajouter</a></li>
+          <li><a href="#update-resource">Modifier</a></li>
+          <li><a href="#delete-resource">Supprimer</a></li>
+          <li><a href="#filter-resource">Filtrer</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2>Ressources</h2>
+
+        <ul>
+          <li>
+            <a href="https://o-lidays-server.onrender.com/api/users">https://o-lidays-server.onrender.com/api/users</a>
+          </li>
+          <li>
+            <a href="https://o-lidays-server.onrender.com/api/rentals">https://o-lidays-server.onrender.com/api/rentals</a>
+          </li>
+        </ul>
+
+        <h2>Guide</h2>
+        
+        <p>Pour accéder aux ressources et les modifier, vous pouvez utiliser les méthodes HTTP&nbsp;:</p>
+        <p>
+          <code>GET</code>
+          <code>POST</code>
+          <code>PUT</code>
+          <code>PATCH</code>
+          <code>DELETE</code>
+          <code>OPTIONS</code>
+        </p>
+        <p>
+          Les exemples suivants utilisent l'<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">API Fetch</a>.
+          Vous êtes libres d'utiliser une autre solution (Axios, Ky…).
+        </p>
+
+        <h3 id="get-resource">Récupérer toutes les données</h3>
+        <pre><code class="js language-js">
+          fetch('https://o-lidays-server.onrender.com/api/rentals')
+            .then((response) => response.json())
+            .then((json) => console.log(json))
+
+          // Output
+          [
+            { id: 42850678, title: 'Suite de luxe…' /* ... */ },
+            /* ... */
+            { id: 581689286115669900, title: 'grande maison dans' /* ... */ }
+          ]
+        </code></pre>
+
+        <h3>Récupérer une donnée</h3>
+
+        <pre><code class="js language-js">
+          fetch('https://o-lidays-server.onrender.com/api/rentals/42850678')
+            .then((response) => response.json())
+            .then((json) => console.log(json))
+
+          // Output
+          {
+            id: 42850678,
+            title: 'Suite de luxe avec vue sur la mer des Wadden, Harlingen',
+            photo:
+              'https://a0.muscache.com/im/pictures/be42241a-5346-4745-a2ef-8cf7576f88b8.jpg?im_w=1200',
+            location: {
+              locality: 'Harlingen',
+              country: 'Pays-Bas',
+              latitude: 53.1748,
+              longitude: 5.4272,
+            },
+            status: 'Professionnel',
+            price: 382,
+            description:
+              "La luxueuse suite spacieuse est meublée d'un coin salon confortable, d'une télévision à écran plat, d'un minibar, d'un double sommier, d'un double lavabo, d'un jacuzzi, d'un sèche-cheveux, d'une salle de bain avec douche à effet pluie spacieuse et de toilettes. Un petit-déjeuner de luxe est servi chaque matin.\n\nDe la suite, vous avez une vue unique sur la plus grande zone de marée au monde: le site du patrimoine mondial de l'Unesco « La mer des Wadden ».\n\nNous ferons tout notre possible pour que vous passiez un séjour inoubliable dans l'entonnoir !",
+            guests: 2,
+            bedroom: 1,
+            bed: 1,
+            bathroom: 1,
+            category: 'Dépaysement garanti',
+          }
+        </code></pre>
+
+        <h3 id="post-resource">Ajouter une donnée</h3>
+        <pre><code class="js language-js">
+          fetch('https://o-lidays-server.onrender.com/api/rentals', {
+            method: 'POST',
+            body: JSON.stringify({
+              id: 5264493,
+              title: 'Moulin à puces | The Mill',
+              photo:
+                'https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=1200',
+              location: {
+                locality: 'Ponta Delgada',
+                country: 'Portugal',
+                latitude: 37.8072,
+                longitude: -25.8018,
+              },
+              status: 'Professionnel',
+              price: 131,
+              description:
+                "Construit au 19e siècle, avec une vue à 360 degrés sur la mer et les environs au dernier étage.\n\nIl dispose d'une chambre avec un grand lit King Size, d'un salon très bien décoré avec une kitchenette et d'un WC.\n\nUne connexion Wi-Fi gratuite, la climatisation, une télévision à écran LED et un lecteur DVD sont disponibles.\n\nParking privé à l'intérieur des locaux, offrant une sécurité supplémentaire.\n\nParfait pour une expérience inoubliable en lune de miel.",
+              guests: 2,
+              bedroom: 1,
+              bed: 1,
+              bathroom: 1,
+              category: 'Dépaysement garanti',
+            }),
+            headers: {
+              'Content-type': 'application/json; charset=UTF-8'
+            }
+          })
+            .then((response) => response.json())
+            .then((json) => console.log(json))
+
+          // Output
+          {
+            id: 5264493,
+            title: 'Moulin à puces | The Mill',
+            photo:
+              'https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=1200',
+            location: {
+              locality: 'Ponta Delgada',
+              country: 'Portugal',
+              latitude: 37.8072,
+              longitude: -25.8018,
+            },
+            status: 'Professionnel',
+            price: 131,
+            description:
+              "Construit au 19e siècle, avec une vue à 360 degrés sur la mer et les environs au dernier étage.\n\nIl dispose d'une chambre avec un grand lit King Size, d'un salon très bien décoré avec une kitchenette et d'un WC.\n\nUne connexion Wi-Fi gratuite, la climatisation, une télévision à écran LED et un lecteur DVD sont disponibles.\n\nParking privé à l'intérieur des locaux, offrant une sécurité supplémentaire.\n\nParfait pour une expérience inoubliable en lune de miel.",
+            guests: 2,
+            bedroom: 1,
+            bed: 1,
+            bathroom: 1,
+            category: 'Dépaysement garanti',
+          }
+        </code></pre>
+
+        <p>
+          <b>Important&nbsp;:</b>
+          la donnée sera effectivement créée sur le serveur (public)…
+          Attention aux informations renseignées.
+        </p>
+
+        <h3 id="update-resource">Mettre à jour une donnée</h3>
+        <h4>Méthode <code>PUT</code></h4>
+
+        <pre><code class="js language-js">
+          fetch('https://o-lidays-server.onrender.com/api/rentals/5264493', {
+            id: 5264493,
+            title: 'Moulin à puces | The Mill',
+            photo:
+              'https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=1200',
+            location: {
+              locality: 'Ponta Delgada',
+              country: 'Portugal',
+              latitude: 37.8072,
+              longitude: -25.8018,
+            },
+            status: 'Professionnel',
+            price: 120,
+            description:
+              "Construit au 19e siècle, avec une vue à 360 degrés sur la mer et les environs au dernier étage.\n\nIl dispose d'une chambre avec un grand lit King Size, d'un salon très bien décoré avec une kitchenette et d'un WC.\n\nUne connexion Wi-Fi gratuite, la climatisation, une télévision à écran LED et un lecteur DVD sont disponibles.\n\nParking privé à l'intérieur des locaux, offrant une sécurité supplémentaire.\n\nParfait pour une expérience inoubliable en lune de miel.",
+            guests: 2,
+            bedroom: 1,
+            bed: 1,
+            bathroom: 1,
+            category: 'Location de moulins',
+          })
+          .then((response) => response.json())
+          .then((json) => console.log(json))
+
+        // Output
+        {
+          id: 5264493,
+          title: 'Moulin à puces | The Mill',
+          photo:
+            'https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=1200',
+          location: {
+            locality: 'Ponta Delgada',
+            country: 'Portugal',
+            latitude: 37.8072,
+            longitude: -25.8018,
+          },
+          status: 'Professionnel',
+          price: 131,
+          description:
+            "Construit au 19e siècle, avec une vue à 360 degrés sur la mer et les environs au dernier étage.\n\nIl dispose d'une chambre avec un grand lit King Size, d'un salon très bien décoré avec une kitchenette et d'un WC.\n\nUne connexion Wi-Fi gratuite, la climatisation, une télévision à écran LED et un lecteur DVD sont disponibles.\n\nParking privé à l'intérieur des locaux, offrant une sécurité supplémentaire.\n\nParfait pour une expérience inoubliable en lune de miel.",
+          guests: 2,
+          bedroom: 1,
+          bed: 1,
+          bathroom: 1,
+          category: 'Location de moulins',
+        }
+        </code></pre>
+
+        <h4>Méthode <code>PATCH</code></h4>
+
+        <pre><code class="js language-js">
+          fetch('https://o-lidays-server.onrender.com/api/rentals/5264493', {
+            method: 'PATCH',
+            body: JSON.stringify({
+              price: 120
+            }),
+            headers: {
+              'Content-type': 'application/json; charset=UTF-8'
+            }
+          })
+          .then((response) => response.json())
+          .then((json) => console.log(json))
+
+        // Output
+        {
+          id: 5264493,
+          title: 'Moulin à puces | The Mill',
+          photo:
+            'https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=1200',
+          location: {
+            locality: 'Ponta Delgada',
+            country: 'Portugal',
+            latitude: 37.8072,
+            longitude: -25.8018,
+          },
+          status: 'Professionnel',
+          price: 120,
+          description:
+            "Construit au 19e siècle, avec une vue à 360 degrés sur la mer et les environs au dernier étage.\n\nIl dispose d'une chambre avec un grand lit King Size, d'un salon très bien décoré avec une kitchenette et d'un WC.\n\nUne connexion Wi-Fi gratuite, la climatisation, une télévision à écran LED et un lecteur DVD sont disponibles.\n\nParking privé à l'intérieur des locaux, offrant une sécurité supplémentaire.\n\nParfait pour une expérience inoubliable en lune de miel.",
+          guests: 2,
+          bedroom: 1,
+          bed: 1,
+          bathroom: 1,
+          category: 'Location de moulins',
+        }
+        </code></pre>
+        
+        <p>
+          <b>Important&nbsp;:</b>
+          la donnée sera effectivement mise à jour sur le serveur (public)…
+          Attention aux informations renseignées.
+        </p>
+
+        <h3 id="delete-resource">Supprimer une donnée</h3>
+
+        <pre><code class="js language-js">
+          fetch('https://o-lidays-server.onrender.com/api/rentals/5264493', {
+            method: 'DELETE'
+          })
+        </code></pre>
+        
+        <p>
+          <b>Important&nbsp;:</b>
+          la donnée sera effectivement supprimer du serveur…
+          Ne pas tout supprimer.
+        </p>
+
+        <h3 id="filter-resource">Filtrer les données</h3>
+        <h4>Paramètres de la requête</h4>
+
+        <pre><code class="js language-js">
+          // Retourne toutes les locations marquées comme « Particulier »
+          fetch('https://o-lidays-server.onrender.com/api/rentals?status=Particulier')
+            .then((response) => response.json())
+            .then((json) => console.log(json))
+        </code></pre>
+
+        <!-- <h4>Ressources imbriquées</h4>
+
+        <pre><code class="js language-js">
+          // Retourne tous les rentals de l'utilisateur 1
+          fetch('https://o-lidays-server.onrender.com/api/users/1/rentals')
+            .then((response) => response.json())
+            .then((json) => console.log(json))
+        </code></pre> -->
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>
+          Powered by
+          <a href="https://github.com/typicode/json-server">JSON Server</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
