@@ -205,6 +205,25 @@
       "bed": 7,
       "bathroom": 2,
       "category": "Locations de cottages"
+    },
+    {
+      "id": 5264493,
+      "title": "df",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=1200",
+      "location": {
+        "locality": "Ponta Delgada",
+        "country": "Portugal",
+        "latitude": 37.8072,
+        "longitude": -25.8018
+      },
+      "status": "Professionnel",
+      "price": 131,
+      "description": "ezfczef",
+      "guests": 1,
+      "bedroom": 1,
+      "bed": 1,
+      "bathroom": 1,
+      "category": "Dépaysement garanti"
     }
   ]
 }
