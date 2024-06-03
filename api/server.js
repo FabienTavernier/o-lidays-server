@@ -1,4 +1,4 @@
-// @see https://github.com/typicode/json-server#module
+// @see https://github.com/typicode/json-server/tree/v0?tab=readme-ov-file#module
 require('dotenv').config();
 const fs = require('fs');
 const jsonServer = require('json-server');
@@ -107,6 +107,8 @@ server.post('/api/login', function (req, res) {
 // Favorites route
 server.get('/api/favorites', checkIfLogged, function (req, res) {
   console.log('>> GET /favorites', req.user);
+
+  const db = JSON.parse(fs.readFileSync('./db.json', 'UTF-8'));
 
   const user = db.users.find((u) => u.id === req.user.id);
 
