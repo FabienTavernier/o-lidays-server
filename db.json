@@ -19,7 +19,7 @@
     {
       "id": 42850678,
       "title": "Suite de luxe avec vue sur la mer des Wadden, Harlingen",
-      "photo": "https://a0.muscache.com/im/pictures/be42241a-5346-4745-a2ef-8cf7576f88b8.jpg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/be42241a-5346-4745-a2ef-8cf7576f88b8.jpg",
       "location": {
         "locality": "Harlingen",
         "country": "Pays-Bas",
@@ -38,7 +38,7 @@
     {
       "id": 20952140,
       "title": "La Suite secrète",
-      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-20952140/original/32992fd9-b420-437e-8040-aae95ab10952.jpeg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/32992fd9-b420-437e-8040-aae95ab10952.jpeg",
       "location": {
         "locality": "Amsterdam",
         "country": "Pays-Bas",
@@ -57,7 +57,7 @@
     {
       "id": 609161492165382300,
       "title": "Maison de jardin séparée en pleine nature",
-      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-609161492165382333/original/90d03745-e550-49c3-891e-ec5b6dc40a75.jpeg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/90d03745-e550-49c3-891e-ec5b6dc40a75.jpeg",
       "location": {
         "locality": "Tervuren",
         "country": "Belgique",
@@ -76,7 +76,7 @@
     {
       "id": 35134577,
       "title": "Expérience de glamping unique près d'Ely et de Cambridge",
-      "photo": "https://a0.muscache.com/im/pictures/2e5550b5-628f-46a6-ae3b-93495384c15e.jpg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/2e5550b5-628f-46a6-ae3b-93495384c15e.jpg",
       "location": {
         "locality": "Sutton",
         "country": "Royaume-Uni",
@@ -95,7 +95,7 @@
     {
       "id": 44352722,
       "title": "Douce nuit sous les étoiles",
-      "photo": "https://a0.muscache.com/im/pictures/b7756897-ef31-4080-b881-c4c7b9ec0df7.jpg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/b7756897-ef31-4080-b881-c4c7b9ec0df7.jpg",
       "location": {
         "locality": "Caylus",
         "country": "France",
@@ -114,7 +114,7 @@
     {
       "id": 24860188,
       "title": "Appartement intra muros avec garage et patio",
-      "photo": "https://a0.muscache.com/im/pictures/8ea186ac-f90a-47bd-ae8e-7ae2f5bdca88.jpg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/8ea186ac-f90a-47bd-ae8e-7ae2f5bdca88.jpg",
       "location": {
         "locality": "Aigues-Mortes",
         "country": "France",
@@ -133,7 +133,7 @@
     {
       "id": 14947526,
       "title": "Studio d'architecte avec piscine et jardins",
-      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-14947526/original/173ea468-7deb-4703-bda0-b048350505b9.jpeg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/173ea468-7deb-4703-bda0-b048350505b9.jpeg",
       "location": {
         "locality": "Aix-en-Provence",
         "country": "France",
@@ -152,7 +152,7 @@
     {
       "id": 785432,
       "title": "Péniche au Centre d’Amsterdam",
-      "photo": "https://a0.muscache.com/im/pictures/11266945/5a8679b1_original.jpg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/11266945/5a8679b1_original.jpg",
       "location": {
         "locality": "Amsterdam",
         "country": "Pays-Bas",
@@ -171,7 +171,7 @@
     {
       "id": 23852021,
       "title": "T2 près du ciel avec terrasse de 22 m²",
-      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-23852021/original/ffbe1ee4-256c-459d-9b78-5af9fac75d96.jpeg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/ffbe1ee4-256c-459d-9b78-5af9fac75d96.jpeg",
       "location": {
         "locality": "Barcelonnette",
         "country": "France",
@@ -190,7 +190,7 @@
     {
       "id": 581689286115669900,
       "title": "grande maison dans hameau en cœur de Parc national",
-      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-581689286115669833/original/c937df15-ca94-45ca-b6f3-67728ca1feb1.jpeg?im_w=1200",
+      "photo": "https://o-lidays-server.onrender.com/pictures/c937df15-ca94-45ca-b6f3-67728ca1feb1.jpeg",
       "location": {
         "locality": "Barre-des-Cévennes",
         "country": "France",
@@ -205,25 +205,6 @@
       "bed": 7,
       "bathroom": 2,
       "category": "Locations de cottages"
-    },
-    {
-      "id": 5264493,
-      "title": "df",
-      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=1200",
-      "location": {
-        "locality": "Ponta Delgada",
-        "country": "Portugal",
-        "latitude": 37.8072,
-        "longitude": -25.8018
-      },
-      "status": "Professionnel",
-      "price": 131,
-      "description": "ezfczef",
-      "guests": 1,
-      "bedroom": 1,
-      "bed": 1,
-      "bathroom": 1,
-      "category": "Dépaysement garanti"
     }
   ],
   "favorites": [
