@@ -19,7 +19,7 @@
     {
       "id": 42850678,
       "title": "Suite de luxe avec vue sur la mer des Wadden, Harlingen",
-      "photo": "https://o-lidays-server.onrender.com/pictures/be42241a-5346-4745-a2ef-8cf7576f88b8.jpg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/be42241a-5346-4745-a2ef-8cf7576f88b8.webp",
       "location": {
         "locality": "Harlingen",
         "country": "Pays-Bas",
@@ -38,7 +38,7 @@
     {
       "id": 20952140,
       "title": "La Suite secrète",
-      "photo": "https://o-lidays-server.onrender.com/pictures/32992fd9-b420-437e-8040-aae95ab10952.jpeg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/32992fd9-b420-437e-8040-aae95ab10952.webp",
       "location": {
         "locality": "Amsterdam",
         "country": "Pays-Bas",
@@ -57,7 +57,7 @@
     {
       "id": 609161492165382300,
       "title": "Maison de jardin séparée en pleine nature",
-      "photo": "https://o-lidays-server.onrender.com/pictures/90d03745-e550-49c3-891e-ec5b6dc40a75.jpeg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/90d03745-e550-49c3-891e-ec5b6dc40a75.webp",
       "location": {
         "locality": "Tervuren",
         "country": "Belgique",
@@ -76,7 +76,7 @@
     {
       "id": 35134577,
       "title": "Expérience de glamping unique près d'Ely et de Cambridge",
-      "photo": "https://o-lidays-server.onrender.com/pictures/2e5550b5-628f-46a6-ae3b-93495384c15e.jpg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/2e5550b5-628f-46a6-ae3b-93495384c15e.webp",
       "location": {
         "locality": "Sutton",
         "country": "Royaume-Uni",
@@ -95,7 +95,7 @@
     {
       "id": 44352722,
       "title": "Douce nuit sous les étoiles",
-      "photo": "https://o-lidays-server.onrender.com/pictures/b7756897-ef31-4080-b881-c4c7b9ec0df7.jpg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/b7756897-ef31-4080-b881-c4c7b9ec0df7.webp",
       "location": {
         "locality": "Caylus",
         "country": "France",
@@ -114,7 +114,7 @@
     {
       "id": 24860188,
       "title": "Appartement intra muros avec garage et patio",
-      "photo": "https://o-lidays-server.onrender.com/pictures/8ea186ac-f90a-47bd-ae8e-7ae2f5bdca88.jpg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/8ea186ac-f90a-47bd-ae8e-7ae2f5bdca88.webp",
       "location": {
         "locality": "Aigues-Mortes",
         "country": "France",
@@ -133,7 +133,7 @@
     {
       "id": 14947526,
       "title": "Studio d'architecte avec piscine et jardins",
-      "photo": "https://o-lidays-server.onrender.com/pictures/173ea468-7deb-4703-bda0-b048350505b9.jpeg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/173ea468-7deb-4703-bda0-b048350505b9.webp",
       "location": {
         "locality": "Aix-en-Provence",
         "country": "France",
@@ -152,7 +152,7 @@
     {
       "id": 785432,
       "title": "Péniche au Centre d’Amsterdam",
-      "photo": "https://o-lidays-server.onrender.com/pictures/11266945/5a8679b1_original.jpg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/11266945/5a8679b1_original.webp",
       "location": {
         "locality": "Amsterdam",
         "country": "Pays-Bas",
@@ -171,7 +171,7 @@
     {
       "id": 23852021,
       "title": "T2 près du ciel avec terrasse de 22 m²",
-      "photo": "https://o-lidays-server.onrender.com/pictures/ffbe1ee4-256c-459d-9b78-5af9fac75d96.jpeg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/ffbe1ee4-256c-459d-9b78-5af9fac75d96.webp",
       "location": {
         "locality": "Barcelonnette",
         "country": "France",
@@ -190,7 +190,7 @@
     {
       "id": 581689286115669900,
       "title": "grande maison dans hameau en cœur de Parc national",
-      "photo": "https://o-lidays-server.onrender.com/pictures/c937df15-ca94-45ca-b6f3-67728ca1feb1.jpeg",
+      "photo": "https://o-lidays-server.onrender.com/api/pictures/c937df15-ca94-45ca-b6f3-67728ca1feb1.webp",
       "location": {
         "locality": "Barre-des-Cévennes",
         "country": "France",
